@@ -79,11 +79,13 @@
     },
     "authorIds": [
       "Veo2baZ1eGYs5rZ4lPXIhisKFMM2",
-      "ygHol3EOXZgf0DidokY0VWfMOR92"
+      "ygHol3EOXZgf0DidokY0VWfMOR92",
+      "Km1QGvQURwMJuJ17gTcPf06yLHv1"
     ],
     "authorUsernames": [
       "CliffJiang",
-      "GadgetHamster"
+      "GadgetHamster",
+      "Dominic_Um"
     ],
     "categories": [],
     "playableDevices": [
@@ -960,6 +962,86 @@
         "name": "a",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/a normal.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "a normal",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TrashCanBlue.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TrashCanBlue.png\"}",
+        "name": "TrashCanBlue",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TrashCanBlue2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TrashCanBlue2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TrashCanBlue3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TrashCanBlue3.png\"}",
+        "name": "TrashCanBlue3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/trash can green_a normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash can green_a normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/d253ddf3f971cbbab2117ce39c7fdf0fd254bb27233be22ec88f2256aa949db3_trash can green_a normal.png",
+          "name": "trash can green_a normal.png"
+        }
+      },
+      {
+        "file": "assets/trash can green_a toppled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash can green_a toppled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/9b97210219e803cfbaac72f922258d16c3b402c25530b0eedd9f1af66838f2c4_trash can green_a toppled.png",
+          "name": "trash can green_a toppled.png"
+        }
+      },
+      {
+        "file": "assets/trash can green_b normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash can green_b normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/928af30b802924fed08b47af4ab8ad88f0f5462ecc9a841dd23016630d4529e4_trash can green_b normal.png",
+          "name": "trash can green_b normal.png"
+        }
+      },
+      {
+        "file": "assets/trash can green_b toppled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash can green_b toppled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/3a8036b52045a44b93d6e6c0525b410efaf789c37d1bcf40aac6da7e5bc6c2fe_trash can green_b toppled.png",
+          "name": "trash can green_b toppled.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -997,7 +1079,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3863316195089437,
+        "zoomFactor": 0.7018031144752495,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1673,14 +1755,48 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 104,
+          "height": 73,
           "layer": "UI",
           "name": "TrashCanBlue",
           "persistentUuid": "e41e72d1-3984-4a1d-b699-b6f233da022c",
-          "width": 87,
-          "x": 35,
-          "y": 83,
+          "width": 63,
+          "x": 16,
+          "y": 158,
           "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Timer",
+          "persistentUuid": "6e639c60-2a2a-43f3-942f-112a81bf4929",
+          "width": 247,
+          "x": 12,
+          "y": 76,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TrashCanGreen",
+          "persistentUuid": "ee5492fd-f8be-427d-a65d-b28162473c05",
+          "width": 73,
+          "x": 1083,
+          "y": 271,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6057,7 +6173,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "7cfb9392d819590c116be9ff196683154e3f36e8a0543a3801eb6af3212ea679",
           "name": "TrashCanBlue",
           "type": "Sprite",
@@ -6066,7 +6182,12 @@
             {
               "name": "Volume",
               "type": "number",
-              "value": 100
+              "value": 2
+            },
+            {
+              "name": "Used",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -6263,6 +6384,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "a Used",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "TrashCanBlue3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6382,6 +6552,294 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Timer",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time: 0s",
+          "font": "PTSans-Bold.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time: 0s",
+            "font": "PTSans-Bold.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Print_value_for_test",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "40f07e68fef5e3620c18ffaa938ed01e57be62fd1c41a26fd3c35d088ae663a0",
+          "name": "TrashCanGreen",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "a normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trash can green_a normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "a toppled",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trash can green_a toppled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "b normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trash can green_b normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "b toppled",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "trash can green_b toppled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 0
+                          },
+                          {
+                            "x": 18,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6481,6 +6939,9 @@
               },
               {
                 "objectName": "ScreenOrientationChecker"
+              },
+              {
+                "objectName": "Timer"
               }
             ]
           },
@@ -6489,6 +6950,12 @@
           },
           {
             "objectName": "TrashCanBlue"
+          },
+          {
+            "objectName": "TrashCanGreen"
+          },
+          {
+            "objectName": "Print_value_for_test"
           },
           {
             "objectName": "TrashBag"
@@ -7721,230 +8188,6 @@
           "parameters": []
         },
         {
-          "colorB": 224,
-          "colorG": 16,
-          "colorR": 189,
-          "creationTime": 0,
-          "name": "Game environment",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Camera",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "HelperObjects"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Move the moon with the same parallax as the background."
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Moon",
-                        "=",
-                        "0.9 * CameraWidth() - BackgroundPlants.XOffset()",
-                        "=",
-                        "100 - BackgroundPlants.YOffset()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Boundary objects act like invisible walls for the player and they also define where the camera can move."
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ClampCamera"
-                      },
-                      "parameters": [
-                        "",
-                        "LeftBoundary.X() + LeftBoundary.Width()",
-                        "TopBoundary.Y() + TopBoundary.Height()",
-                        "RightBoundary.X()",
-                        "BottomBoundary.Y()",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Display current score",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "ScoreText",
-                        "Text",
-                        "=",
-                        "\"Score: \" + VariableString(Score)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Sound effects",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "crickets.aac",
-                        "yes",
-                        "30",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "door.aac",
-                        "0",
-                        "yes",
-                        "100",
-                        "1"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Increase volume of portal as the player gets closer"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "VolumeFalloff::SetVolumeFalloff"
-                      },
-                      "parameters": [
-                        "",
-                        "0",
-                        "\"Sound\"",
-                        "Portal",
-                        "Player",
-                        "0",
-                        "20",
-                        "750",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
@@ -8154,8 +8397,51 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Animation",
+                "=",
+                "\"a normal\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Used",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Volume",
+                "=",
+                "1"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -8290,18 +8576,6 @@
           "comment": "Trash Can"
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "So far it is create at the right, remember to change to depends on players front"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8323,6 +8597,17 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Volume",
+                ">",
+                "TrashCanBlue.Used"
+              ]
             }
           ],
           "actions": [
@@ -8334,7 +8619,7 @@
                 "",
                 "TrashBag",
                 "Player.X()+Player.trashcanOffset",
-                "Player.Y()+40",
+                "Player.Y()+30",
                 ""
               ]
             },
@@ -8429,6 +8714,17 @@
                     "Fly",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TrashCanBlue",
+                    "Used",
+                    "=",
+                    "1 + TrashCanBlue.ArrayVariableFirstNumber(Used)"
+                  ]
                 }
               ]
             },
@@ -8479,7 +8775,126 @@
                     "+",
                     "50"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TrashCanBlue",
+                    "Used",
+                    "=",
+                    "1 + TrashCanBlue.ArrayVariableFirstNumber(Used)"
+                  ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TrashCanBlue",
+                    "Volume",
+                    "<=",
+                    "TrashCanBlue.Used"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "TrashCanBlue",
+                    "Animation",
+                    "=",
+                    "\"a Used\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Print_value_for_test",
+                    "Text",
+                    "=",
+                    "\"V is: \" + TrashCanBlue.Volume + \"and used is: \" + TrashCanBlue.Used"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TrashCanGreen",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Used",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TrashCanGreen",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Volume",
+                ">",
+                "TrashCanBlue.Used"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "TrashCanBlue",
+                "Animation",
+                "=",
+                "\"a normal\""
               ]
             }
           ]
@@ -8592,6 +9007,288 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 224,
+          "colorG": 16,
+          "colorR": 189,
+          "creationTime": 0,
+          "name": "Game environment",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Camera",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "HelperObjects"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Move the moon with the same parallax as the background."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Moon",
+                        "=",
+                        "0.9 * CameraWidth() - BackgroundPlants.XOffset()",
+                        "=",
+                        "100 - BackgroundPlants.YOffset()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Boundary objects act like invisible walls for the player and they also define where the camera can move."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ClampCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "LeftBoundary.X() + LeftBoundary.Width()",
+                        "TopBoundary.Y() + TopBoundary.Height()",
+                        "RightBoundary.X()",
+                        "BottomBoundary.Y()",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Display current time",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GeneralTime\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Timer",
+                        "Text",
+                        "=",
+                        "\"Time: \" + ToString(int(TimerElapsedTime(\"GeneralTime\"))) + \"s\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Display current score",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "ScoreText",
+                        "Text",
+                        "=",
+                        "\"Score: \" + VariableString(Score)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Sound effects",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "crickets.aac",
+                        "yes",
+                        "30",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "door.aac",
+                        "0",
+                        "yes",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increase volume of portal as the player gets closer"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "VolumeFalloff::SetVolumeFalloff"
+                      },
+                      "parameters": [
+                        "",
+                        "0",
+                        "\"Sound\"",
+                        "Portal",
+                        "Player",
+                        "0",
+                        "20",
+                        "750",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
