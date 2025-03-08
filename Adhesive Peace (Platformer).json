@@ -1042,6 +1042,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric City Pack/props/3a8036b52045a44b93d6e6c0525b410efaf789c37d1bcf40aac6da7e5bc6c2fe_trash can green_b toppled.png",
           "name": "trash can green_b toppled.png"
         }
+      },
+      {
+        "file": "Idle-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jump.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Jump.png\",\"extension\":\".png\"}",
+        "name": "Jump.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "jump",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "jump2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/jump3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "jump3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1079,7 +1119,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7018031144752495,
+        "zoomFactor": 0.5037148046217078,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1853,9 +1893,9 @@
               "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
               "EnableAnimationChanges": true,
               "EnableHorizontalFlipping": true,
-              "IdleAnimationName": "Idle",
+              "IdleAnimationName": "Idle-1",
               "MoveAnimationName": "Move",
-              "JumpAnimationName": "Jump",
+              "JumpAnimationName": "Jump-1",
               "FallAnimationName": "Fall",
               "ClimbAnimationName": "Climb",
               "PlatformerBehavior": "PlatformerObject",
@@ -3317,6 +3357,175 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Red hero_Fall.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 182
+                          },
+                          {
+                            "x": 20.5,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 182
+                          },
+                          {
+                            "x": 20.5,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jump",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 182
+                          },
+                          {
+                            "x": 20.5,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jump2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 22
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 182
+                          },
+                          {
+                            "x": 20.5,
+                            "y": 182
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jump3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
